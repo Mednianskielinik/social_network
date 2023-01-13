@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/demo-social-network/react-gh-pages/static/css/main.b8a2212c.css",
+    "main.js": "/demo-social-network/react-gh-pages/static/js/main.d5bbb030.js",
+    "static/css/178.26f5fce0.chunk.css": "/demo-social-network/react-gh-pages/static/css/178.26f5fce0.chunk.css",
+    "static/js/178.9f0448b2.chunk.js": "/demo-social-network/react-gh-pages/static/js/178.9f0448b2.chunk.js",
+    "static/css/889.fb054793.chunk.css": "/demo-social-network/react-gh-pages/static/css/889.fb054793.chunk.css",
+    "static/js/889.644765c3.chunk.js": "/demo-social-network/react-gh-pages/static/js/889.644765c3.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/demo-social-network/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
+    "static/media/user.png": "/demo-social-network/react-gh-pages/static/media/user.a502917bb261e06cd927.png",
+    "static/media/loader.svg": "/demo-social-network/react-gh-pages/static/media/loader.db3b0d8ffb2e73487be7e5294efda998.svg",
+    "index.html": "/demo-social-network/react-gh-pages/index.html",
+    "main.b8a2212c.css.map": "/demo-social-network/react-gh-pages/static/css/main.b8a2212c.css.map",
+    "main.d5bbb030.js.map": "/demo-social-network/react-gh-pages/static/js/main.d5bbb030.js.map",
+    "178.26f5fce0.chunk.css.map": "/demo-social-network/react-gh-pages/static/css/178.26f5fce0.chunk.css.map",
+    "178.9f0448b2.chunk.js.map": "/demo-social-network/react-gh-pages/static/js/178.9f0448b2.chunk.js.map",
+    "889.fb054793.chunk.css.map": "/demo-social-network/react-gh-pages/static/css/889.fb054793.chunk.css.map",
+    "889.644765c3.chunk.js.map": "/demo-social-network/react-gh-pages/static/js/889.644765c3.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/demo-social-network/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8a2212c.css",
+    "static/js/main.d5bbb030.js"
+  ]
+}
