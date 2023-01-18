@@ -1,6 +1,6 @@
 import React, {Suspense, useEffect} from 'react';
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Navbar from "./components/Navbar/Navbar";
 import UsersContainer from "./components/Users/UsersContainer";
 import HeaderContainer from "./components/Header/HeaderContainer"
@@ -22,7 +22,7 @@ function App(props) {
         return <Preloader/>
     }
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <div className="app-wrapper">
                 <HeaderContainer/>
                 <Navbar/>
@@ -41,7 +41,7 @@ function App(props) {
                     </Suspense>
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
