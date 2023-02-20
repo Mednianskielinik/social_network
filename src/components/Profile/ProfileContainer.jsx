@@ -4,7 +4,8 @@ import {connect} from "react-redux";
 import {
     getUserProfile,
     getUserStatus,
-    updateUserStatus
+    updateUserStatus,
+    savePhoto
 } from "../../redux/profileReducer";
 import {useParams} from 'react-router-dom';
 import {compose} from "redux";
@@ -21,10 +22,17 @@ function ProfileContainer(props) {
     useEffect(() => {
         props.getUserProfile(userId);
         props.getUserStatus(userId)
-    }, []);
+    }, [userId]);
 
     return (
-        <Profile {...props} profile={props.profile} status={props.status} updateStatus={props.updateUserStatus}/>
+        <Profile
+            {...props}
+            profile={props.profile}
+            status={props.status}
+            updateStatus={props.updateUserStatus}
+            isOwner={!useParams().id}
+            savePhoto={props.savePhoto}
+        />
     );
 }
 
@@ -35,5 +43,5 @@ let mapStateToProps = (state) => ({
 });
 
 export default compose(
-    connect(mapStateToProps, {getUserProfile, getUserStatus, updateUserStatus}),
+    connect(mapStateToProps, {getUserProfile, getUserStatus, updateUserStatus, savePhoto}),
 )(ProfileContainer);

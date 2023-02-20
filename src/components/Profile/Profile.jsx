@@ -3,10 +3,11 @@ import styles from './Profile.module.css';
 import PostsContainer from "./MyPosts/PostsContainer";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-function Profile({profile, status, updateStatus}) {
+function Profile({profile, status, updateStatus, isOwner, savePhoto}) {
     return (
         <div className={styles.content}>
-            <ProfileInfo profile={profile} status={status} updateStatus={updateStatus}/>
+            <ProfileInfo savePhoto={savePhoto} isOwner={isOwner} profile={profile} status={status}
+                         updateStatus={updateStatus}/>
             <PostsContainer/>
         </div>
     );
